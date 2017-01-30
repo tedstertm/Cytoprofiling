@@ -22,7 +22,7 @@ clean.variable.name <- function(variable.name)
 #whichever data you ask for. The default data that you need for CPA 
 #is MyExpt.Per.Object
 
-load.db <- function(file.name, return.variable = NULL)
+load.db <- function(file.name,  return.variable = NULL)
 {
 	require('RSQLite')
 	
